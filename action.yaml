@@ -13,7 +13,7 @@ inputs:
   args:
     description: Additional arguments to the sonar-scanner
     required: false
-  projectBaseDir:
+  projectDir:
     description: Set the sonar.projectBaseDir analysis property
     required: false
     default: .
